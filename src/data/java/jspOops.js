@@ -11,16 +11,16 @@ export const javaJspOops = [
   },
   {
     question: "Who developed Java?",
-    options: ["James Gosling", "Dennis Ritchie", "Bjarne Stroustrup", "Guido van Rossum"],
+    options: [ "Dennis Ritchie", "Bjarne Stroustrup","James Gosling", "Guido van Rossum"],
     answer: "James Gosling"
   },
   {
     question: "What is OOPs?",
     options: [
-      "Object Oriented Programming System",
       "Object Order Processing",
       "Open Operating Program",
-      "Online Object Processing"
+      "Online Object Processing",
+      "Object Oriented Programming System"
     ],
     answer: "Object Oriented Programming System"
   },
@@ -37,8 +37,8 @@ export const javaJspOops = [
   {
     question: "Advantage of OOP over Procedure Oriented language?",
     options: [
-      "Supports reusability and modularity",
       "Uses only functions",
+      "Supports reusability and modularity",
       "Does not use objects",
       "All code is global"
     ],
@@ -46,50 +46,50 @@ export const javaJspOops = [
   },
   {
     question: "What was Java’s previous name?",
-    options: ["Oak", "Pine", "Cedar", "Maple"],
+    options: ["Pine", "Oak","Cedar", "Maple"],
     answer: "Oak"
   },
   {
     question: "Why the name Java?",
     options: [
-      "Named after Java coffee",
       "Named after a city",
       "Named after developer’s son",
-      "Named after operating system"
+      "Named after operating system",
+      "Named after Java coffee"
     ],
     answer: "Named after Java coffee"
   },
   {
     question: "What is a token in Java?",
     options: [
-      "Smallest unit in a program",
       "A type of class",
       "A Java package",
+      "Smallest unit in a program",
       "A memory block"
     ],
     answer: "Smallest unit in a program"
   },
   {
     question: "Which of the following is NOT a Java token?",
-    options: ["Package", "Identifier", "Keyword", "Operator"],
+    options: ["Identifier", "Keyword", "Package","Operator"],
     answer: "Package"
   },
   {
     question: "What are methods?",
     options: [
-      "Blocks of code performing tasks",
       "Variables in Java",
       "Objects in memory",
-      "Packages"
+      "Packages",
+      "Blocks of code performing tasks",
     ],
     answer: "Blocks of code performing tasks"
   },
   {
     question: "Categories of methods?",
     options: [
-      "Static and Non-static",
       "Public and Private only",
       "Final and Abstract only",
+      "Static and Non-static",
       "Package and Module"
     ],
     answer: "Static and Non-static"
@@ -102,8 +102,8 @@ export const javaJspOops = [
   {
     question: "What are objects?",
     options: [
-      "Instances of a class",
       "Java keywords",
+      "Instances of a class",
       "Blocks of memory",
       "Operators"
     ],
@@ -112,9 +112,9 @@ export const javaJspOops = [
   {
     question: "What are classes?",
     options: [
-      "Blueprint of objects",
       "Java tokens",
       "Java methods",
+      "Blueprint of objects",
       "Operators"
     ],
     answer: "Blueprint of objects"
@@ -122,10 +122,10 @@ export const javaJspOops = [
   {
     question: "Types of variables in OOP?",
     options: [
-      "Instance, Static, Local",
       "Global, Local, Private",
       "Public, Private, Protected",
-      "Primary, Secondary, Derived"
+      "Primary, Secondary, Derived",
+      "Instance, Static, Local"
     ],
     answer: "Instance, Static, Local"
   },
@@ -141,19 +141,19 @@ export const javaJspOops = [
   },
   {
     question: "Can we have multiple references for one object?",
-    options: ["Yes", "No", "Sometimes", "Only in C"],
+    options: ["No", "Sometimes", "Yes", "Only in C"],
     answer: "Yes"
   },
   {
     question: "Can one reference point to multiple objects?",
-    options: ["Yes", "No", "Only in array", "Only in constructors"],
+    options: ["No", "Yes", "Only in array", "Only in constructors"],
     answer: "Yes"
   },
   {
     question: "What is an anonymous object?",
     options: [
-      "Object without reference",
       "Object without class",
+      "Object without reference",
       "Object with multiple names",
       "Object stored in database"
     ],
@@ -162,9 +162,9 @@ export const javaJspOops = [
   {
     question: "What is JVM?",
     options: [
-      "Java Virtual Machine",
       "Java Version Manager",
       "Java Variable Module",
+      "Java Virtual Machine",
       "Java Visual Model"
     ],
     answer: "Java Virtual Machine"
@@ -172,8 +172,8 @@ export const javaJspOops = [
   {
     question: "What is JDK?",
     options: [
-      "Java Development Kit",
       "Java Debug Kit",
+      "Java Development Kit",
       "Java Data Key",
       "Java Design Kernel"
     ],
@@ -182,9 +182,9 @@ export const javaJspOops = [
   {
     question: "What is JRE?",
     options: [
-      "Java Runtime Environment",
       "Java Running Editor",
       "Java Registry Engine",
+      "Java Runtime Environment",
       "Java Render Environment"
     ],
     answer: "Java Runtime Environment"
@@ -192,8 +192,8 @@ export const javaJspOops = [
   {
     question: "What is bytecode?",
     options: [
-      "Intermediate code executed by JVM",
       "Machine code",
+      "Intermediate code executed by JVM",
       "Source code",
       "Binary file"
     ],
@@ -202,41 +202,41 @@ export const javaJspOops = [
   {
     question: "What is native code?",
     options: [
-      "Machine code for specific OS",
       "Java source code",
       "Bytecode",
-      "Intermediate code"
+      "Intermediate code",
+      "Machine code for specific OS"
     ],
     answer: "Machine code for specific OS"
   },
   {
     question: "Which is Platform Independent?",
-    options: ["Java", "C", "C++", "Assembly"],
+    options: ["C", "C++", "Java", "Assembly"],
     answer: "Java"
   },
   {
     question: "Which is Platform Dependent?",
-    options: ["C", "Java", "HTML", "Python"],
+    options: ["Java", "HTML", "Python", "C"],
     answer: "C"
   },
   {
     question: "What is recursion?",
     options: [
-      "Method calling itself",
       "Calling another class",
       "Creating objects",
+      "Method calling itself",
       "Loading JVM"
     ],
     answer: "Method calling itself"
   },
   {
     question: "JVM executes in which memory?",
-    options: ["RAM", "ROM", "CPU Cache", "Virtual Disk"],
+    options: ["ROM", "CPU Cache", "RAM", "Virtual Disk"],
     answer: "RAM"
   },
   {
     question: "main() executes in which memory?",
-    options: ["Stack memory", "Heap memory", "ROM", "CPU registers"],
+    options: ["Heap memory", "ROM", "Stack memory", "CPU registers"],
     answer: "Stack memory"
   },
   {
