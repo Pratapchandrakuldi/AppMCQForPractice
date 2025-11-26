@@ -8,8 +8,9 @@ import { jsBasics } from "./javascript/basics";
 import { jsDom } from "./javascript/dom";
 import { htmlBasics } from "./html/basics";
 import { cssBasics } from "./css/basics";
-import { htmlAttributesMcq } from "./html/htmlAttributesMcq";
-import { htmlTagsMcq } from "./html/htmlTagsMcq";
+import { htmlAttributesMcq } from "./html/attributes";
+import { htmlTagsMcq } from "./html/tags";
+import { cssFlexGridMcq } from "./css/flex_grid";
 
 
 
@@ -32,9 +33,10 @@ export const questionsMap = {
   html: {
     basics: htmlBasics,
     attributes: htmlAttributesMcq,
-    tags: htmlTagsMcq
+    tags: htmlTagsMcq,
   },
   css: {
     basics: cssBasics,
+    flex_grid: cssFlexGridMcq,
   },
 };
