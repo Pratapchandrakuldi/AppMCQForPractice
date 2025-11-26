@@ -4,8 +4,8 @@ const subCategories = {
   java: ["jspOops","oops", "dsa"],
   sql: ["basics","dql", "dml"],
   javascript: ["basics", "dom"],
-  html: ["basics"],
-  css: ["basics"],
+  html: ["basics","htmlAttributeMcq","htmlTagsMcq"],
+  css: ["basics","cssFlexGridMcq"],
 };
 
 export default function CategoryPage() {

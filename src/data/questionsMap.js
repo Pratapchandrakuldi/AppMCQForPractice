@@ -8,6 +8,8 @@ import { jsBasics } from "./javascript/basics";
 import { jsDom } from "./javascript/dom";
 import { htmlBasics } from "./html/basics";
 import { cssBasics } from "./css/basics";
+import { htmlAttributesMcq } from "./html/htmlAttributesMcq";
+import { htmlTagsMcq } from "./html/htmlTagsMcq";
 
 
 
@@ -29,6 +31,8 @@ export const questionsMap = {
   },
   html: {
     basics: htmlBasics,
+    attributes: htmlAttributesMcq,
+    tags: htmlTagsMcq
   },
   css: {
     basics: cssBasics,
