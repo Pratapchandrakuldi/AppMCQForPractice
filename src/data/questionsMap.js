@@ -11,6 +11,8 @@ import { cssBasics } from "./css/basics";
 import { htmlAttributesMcq } from "./html/attributes";
 import { htmlTagsMcq } from "./html/tags";
 import { cssFlexGridMcq } from "./css/flex_grid";
+import { coreJava } from "./java/corejava1";
+import { coreJava2 } from "./java/corejava2";
 
 
 
@@ -19,6 +21,8 @@ export const questionsMap = {
   java: {
     jspOops: javaJspOops,
     oops: javaOops,
+    corejava1: coreJava,
+    corejava2: coreJava2,
     dsa: javaDsa,
   },
   sql: {

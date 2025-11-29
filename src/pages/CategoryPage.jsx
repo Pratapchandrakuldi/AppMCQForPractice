@@ -1,7 +1,7 @@
 import { Link, useParams, useNavigate } from "react-router-dom";
 
 const subCategories = {
-  java: ["jspOops","oops", "dsa"],
+  java: ["jspOops","oops", "corejava1", "corejava2", "dsa"],
   sql: ["basics","dql", "dml"],
   javascript: ["basics", "dom"],
   html: ["basics","attributes","tags"],
